@@ -69,7 +69,7 @@ def get_model():
 
     return sr_model
 
-# ================= HELPERS ================= #
+# ================= HELPER ================= #
 
 def safe_resize(img: np.ndarray) -> np.ndarray:
     h, w = img.shape[:2]
